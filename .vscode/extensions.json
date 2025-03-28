@@ -1,0 +1,6 @@
+// For more information about extensions.json, visit: https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions
+{
+  "recommendations": [
+    "Vue.volar"
+  ]
+}
