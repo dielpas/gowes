@@ -1,6 +1,16 @@
-// For more information about extensions.json, visit: https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions
 {
-  "recommendations": [
-    "Vue.volar"
-  ]
+	// See https://go.microsoft.com/fwlink/?LinkId=827846 to learn about workspace recommendations.
+	// Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+
+	// List of extensions which should be recommended for users of this workspace.
+	"recommendations": [
+		"Vue.volar",
+		"bradlc.vscode-tailwindcss",
+		"esbenp.prettier-vscode",
+		"dbaeumer.vscode-eslint"
+	],
+	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+	"unwantedRecommendations": [
+		
+	]
 }
