@@ -15,12 +15,12 @@ export default defineNuxtConfig({
     '@nuxt/test-utils',
     '@nuxt/ui',
     '@nuxthub/core',
+    '@nuxtjs/i18n',
     '@pinia/nuxt',
-    '@nuxtjs/i18n'
   ],
   vite: {
     plugins: [
       tailwindcss(),
-    ]
-  }
-})
+    ],
+  },
+});
