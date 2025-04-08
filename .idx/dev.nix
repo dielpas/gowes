@@ -11,6 +11,8 @@
     # pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
     pkgs.nodejs_20
+    pkgs.git
+    pkgs.gh
   ];
   # Sets environment variables in the workspace
   env = {};
