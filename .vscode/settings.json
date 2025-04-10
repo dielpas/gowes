@@ -1,4 +1,9 @@
 {
     "IDX.aI.enableInlineCompletion": true,
-    "IDX.aI.enableCodebaseIndexing": true
+    "IDX.aI.enableCodebaseIndexing": true,
+    "search.exclude": {
+        "**/_pgbackup": true,
+        "**/dist": true,
+        "**/.unlighthouse": true
+    }
 }
